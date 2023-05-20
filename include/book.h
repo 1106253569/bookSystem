@@ -10,19 +10,19 @@
 #include <algorithm>  
 using namespace std;
 
-class book//Í¼ÊéÀà 
+class book//å›¾ä¹¦ç±» 
 {	
-	friend ostream& operator <<(ostream& out, book& b);//ÖØÔØÊä³ö 
-	friend istream& operator >>(istream& in, book& b);//ÖØÔØÊäÈë 
+	friend ostream& operator <<(ostream& out, book& b);//é‡è½½è¾“å‡º 
+	friend istream& operator >>(istream& in, book& b);//é‡è½½è¾“å…¥ 
 
 private:
-	string id;//±àºÅ 
-	string name;//Í¼ÊéÃû×Ö 
-	string  writer;//×÷Õß 
-	string home;//³ö°æÉç 
-	double  price=0.0 ;//½ğ¶î    
-	string  type;//Àà±ğ 
-	int  sl=0 ;//¿â´æ
+	string id;//ç¼–å· 
+	string name;//å›¾ä¹¦åå­— 
+	string  writer;//ä½œè€… 
+	string home;//å‡ºç‰ˆç¤¾ 
+	double  price=0.0 ;//é‡‘é¢    
+	string  type;//ç±»åˆ« 
+	int  sl=0 ;//åº“å­˜
 
 public:
 

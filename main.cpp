@@ -1,8 +1,8 @@
-#include "book.h"
-#include "System.h"
+#include "include/book.h"
+#include "include/System.h"
 
 int main()
 {
-	System s1; //利用构造函数进入并运行系统
+	System s1; //鍒╃敤鏋勯�犲嚱鏁拌繘鍏ュ苟杩愯绯荤粺
 	return 0;
 }
